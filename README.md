@@ -6,11 +6,8 @@ function setup() {
 
 function draw() {
   background(220);
-  for (var i = 20; i <= 380; i = i + 10) {
-    var startX = 20;
-    var startY = i;
-    var endX = 380;
-    var endY = i;
-    line(startX, startY, endX, endY);
+	
+  for (var x = 10; x <= 390; x = x + 10) {
+    line(x, 10, x, x + 100);
   }
 }
